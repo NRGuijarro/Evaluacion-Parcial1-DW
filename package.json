@@ -1,5 +1,5 @@
 {
-  "homepage": "https://nrguijarro.github.io/laboratorio-2-NRGuijarro/",
+  "homepage": "https://nrguijarro.github.io/Evaluacion-Parcial1-DW/",
   "scripts": {
     "deploy": "gh-pages -d src"
   },
