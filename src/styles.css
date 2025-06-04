@@ -1,0 +1,123 @@
+body {
+  background-color: azure;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #333;
+}
+
+.text1 {
+  color: lightgray;
+}
+
+.text2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container-dev_challenge {
+  display: flex;
+  height: 300px;
+  justify-content: space-around;
+}
+
+header {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+header img {
+  width: 70px;
+  height: 85px;
+}
+
+form {
+  text-align: center;
+}
+
+button {
+  padding: 0.75rem;
+  background-color: #c0f1fa;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #b1e4f7;
+}
+
+.link {
+  color: #4b9bd7;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  color: #ffffff;
+  background-color: #1a73e8;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dark-theme {
+  background-color: black;
+  color: white;
+}
+
+#participantes {
+  margin-top: 30px;
+}
+
+#peopleList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+}
+
+.participant {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.participant img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.participant p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+@media (min-width: 768px) {
+  #peopleList {
+    justify-content: center;
+  }
+
+  .participant {
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  #peopleList {
+    justify-content: center;
+  }
+  .participant {
+    width: 180px;
+  }
+}
